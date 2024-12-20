@@ -11683,3 +11683,32 @@ pre {
   color: #555;
   line-height: 1.6;
 }
+
+#education {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.education-item {
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.education-item h3 {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.2rem 0;
+}

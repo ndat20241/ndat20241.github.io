@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#employment">Employment History</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#testmonial">Testmonial</a>
                     </li>
@@ -725,58 +728,69 @@
 
     <section id="employment" style="padding: 50px 0; background-color: #f9f9f9;">
         <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-          <h2 style="text-align: center; font-size: 2.5rem; color: #222; margin-bottom: 40px;">Employment History</h2>
-      
-          <!-- Amazon -->
-          <div class="job-entry" style="margin-bottom: 30px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <h3 style="font-size: 1.5rem; color: #333;">Senior Software Engineer</h3>
-            <p style="font-size: 1rem; color: #777;">Amazon | San Jose, CA | Feb 2018 – Dec 2024</p>
-            <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Angular, C#, .NET, Kubernetes, Docker, Azure DevOps, Ansible, DataDog, Microservices, MySQL, PostgreSQL, GraphQL, Microsoft Azure, Azure API</p>
-            <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
-              <li>Architected and built a scalable API gateway for Azure API Management using C#/.NET, implementing request validation, authentication, throttling, and caching that improved APIs response times by 40% and reduced infrastructure costs by 30%.</li>
-              <li>Built the React-based customer insights module for Dynamics 365, creating a scalable web application using a Node.js backend that processes over 200K customer profiles per day.</li>
-              <li>Led a team that developed a reusable API gateway framework in Node.js/TypeScript to handle common API concerns such as logging, monitoring, and error handling.</li>
-              <li>Integrated a React app with the Azure DevOps API to build an automated testing dashboard. Improved test run detail views with customizable test status filtering.</li>
-              <li>Refactored an existing ASP.NET application to migrate to a React frontend architecture, reducing page load time through integration of APIs and routing in React alongside refactored .NET backend services.</li>
-              <li>Implemented API documentation generation via Swagger/OpenAPI for 50 APIs managed by the Azure gateway, enabling automated client SDK creation and reducing support incidents.</li>
-              <li>Integrated the API gateway with Azure Application Insights and Log Analytics to monitor runtime behavior and troubleshoot issues, reducing average resolution time for degraded APIs.</li>
-              <li>Implemented dynamic routing and data fetching in React for a resource monitoring app, increasing dashboard customization options and average user throughput using React context and hooks.</li>
-              <li>Collaborated with cross-functional teams to define, design, and ship new features, ensuring seamless integration with other Dynamics 365 modules.</li>
-              <li>Mentored junior developers and conducted code reviews to ensure high code quality and adherence to best practices.</li>
-              <li>Implemented unit tests using Jest and Mocha, ensuring robust test coverage and reducing bugs.</li>
-              <li>Managed cloud infrastructure on Azure, leveraging Azure DevOps for CI/CD pipelines to automate deployments and monitor system performance.</li>
-            </ul>
-          </div>
-      
-          <!-- Trianz -->
-          <div class="job-entry" style="margin-bottom: 30px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <h3 style="font-size: 1.5rem; color: #333;">Software Engineer</h3>
-            <p style="font-size: 1rem; color: #777;">Trianz | San Jose, CA | Apr 2016 – Feb 2018</p>
-            <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Python, Django, Java, FastAPI, Kubernetes, Docker, Microservices, MySQL, PostgreSQL, GraphQL, REST API, AWS, AWS S3, Redis, Google Cloud Platform</p>
-            <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
-              <li>Architected backend services with Node.js and built database schemas with MongoDB to support the resource tool, processing over 10,000 records per hour to update project assignments based on real-time workload.</li>
-              <li>Implemented CI/CD pipelines in Docker and Jenkins to deploy React/Node apps to AWS, decreasing deployment time through automation which avoided over $10k in lost productivity annually.</li>
-              <li>Consulted with 5 major clients to modernize project management workflows, leading development that drove 15% improvement in stakeholder satisfaction by aligning solution capabilities to customer needs.</li>
-              <li>Built a resource allocation and tracking tool to streamline project management and resource utilization using React and Node.js.</li>
-              <li>Worked on server-side logic and database interactions using Node.js and Python to ensure efficient data handling and processing.</li>
-              <li>Participated in agile ceremonies and contributed to sprint planning, stand-ups, and retrospectives, promoting team collaboration and productivity.</li>
-            </ul>
-          </div>
-      
-          <!-- TCS -->
-          <div class="job-entry">
-            <h3 style="font-size: 1.5rem; color: #333;">Software Engineer</h3>
-            <p style="font-size: 1rem; color: #777;">TCS | Dallas, TX | May 2015 – Apr 2016</p>
-            <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Vue, MySQL, PostgreSQL, REST API, Jest, Cypress, Docker, AWS, Jenkins, CI/CD, MongoDB, Redux</p>
-            <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
-              <li>Built e-commerce sites for 5 small businesses using React, Redux, and Node.js/Express, driving a 30% increase in annual sales through optimized product search and personalized recommendations.</li>
-              <li>Designed and implemented REST APIs with Node.js and PostgreSQL for 7 web application projects, allowing rapid prototyping through a reusable and scalable backend architecture.</li>
-              <li>Consulted with early-stage startups to evaluate tech stacks, migrating 2 companies to cloud-based solutions which decreased annual hosting costs and improved roadmap alignment to market needs.</li>
-              <li>Enhanced the performance of existing React/Node apps for 3 clients through profiling, code reviews, and optimizations like bundling, reducing average load times by 30% and boosting user satisfaction.</li>
-            </ul>
-          </div>
+            <h2 style="text-align: center; font-size: 2.5rem; color: #222; margin-bottom: 40px;">Employment History</h2>
+
+            <!-- Amazon -->
+            <div class="job-entry" style="margin-bottom: 30px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="font-size: 1.5rem; color: #333;">Senior Software Engineer</h3>
+                <p style="font-size: 1rem; color: #777;">Amazon | San Jose, CA | Feb 2018 – Dec 2024</p>
+                <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Angular, C#, .NET, Kubernetes, Docker, Azure DevOps, Ansible, DataDog, Microservices, MySQL, PostgreSQL, GraphQL, Microsoft Azure, Azure API</p>
+                <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
+                <li>Architected and built a scalable API gateway for Azure API Management using C#/.NET, implementing request validation, authentication, throttling, and caching that improved APIs response times by 40% and reduced infrastructure costs by 30%.</li>
+                <li>Built the React-based customer insights module for Dynamics 365, creating a scalable web application using a Node.js backend that processes over 200K customer profiles per day.</li>
+                <li>Led a team that developed a reusable API gateway framework in Node.js/TypeScript to handle common API concerns such as logging, monitoring, and error handling.</li>
+                <li>Integrated a React app with the Azure DevOps API to build an automated testing dashboard. Improved test run detail views with customizable test status filtering.</li>
+                <li>Refactored an existing ASP.NET application to migrate to a React frontend architecture, reducing page load time through integration of APIs and routing in React alongside refactored .NET backend services.</li>
+                <li>Implemented API documentation generation via Swagger/OpenAPI for 50 APIs managed by the Azure gateway, enabling automated client SDK creation and reducing support incidents.</li>
+                <li>Integrated the API gateway with Azure Application Insights and Log Analytics to monitor runtime behavior and troubleshoot issues, reducing average resolution time for degraded APIs.</li>
+                <li>Implemented dynamic routing and data fetching in React for a resource monitoring app, increasing dashboard customization options and average user throughput using React context and hooks.</li>
+                <li>Collaborated with cross-functional teams to define, design, and ship new features, ensuring seamless integration with other Dynamics 365 modules.</li>
+                <li>Mentored junior developers and conducted code reviews to ensure high code quality and adherence to best practices.</li>
+                <li>Implemented unit tests using Jest and Mocha, ensuring robust test coverage and reducing bugs.</li>
+                <li>Managed cloud infrastructure on Azure, leveraging Azure DevOps for CI/CD pipelines to automate deployments and monitor system performance.</li>
+                </ul>
+            </div>
+        
+            <!-- Trianz -->
+            <div class="job-entry" style="margin-bottom: 30px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="font-size: 1.5rem; color: #333;">Software Engineer</h3>
+                <p style="font-size: 1rem; color: #777;">Trianz | San Jose, CA | Apr 2016 – Feb 2018</p>
+                <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Python, Django, Java, FastAPI, Kubernetes, Docker, Microservices, MySQL, PostgreSQL, GraphQL, REST API, AWS, AWS S3, Redis, Google Cloud Platform</p>
+                <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
+                <li>Architected backend services with Node.js and built database schemas with MongoDB to support the resource tool, processing over 10,000 records per hour to update project assignments based on real-time workload.</li>
+                <li>Implemented CI/CD pipelines in Docker and Jenkins to deploy React/Node apps to AWS, decreasing deployment time through automation which avoided over $10k in lost productivity annually.</li>
+                <li>Consulted with 5 major clients to modernize project management workflows, leading development that drove 15% improvement in stakeholder satisfaction by aligning solution capabilities to customer needs.</li>
+                <li>Built a resource allocation and tracking tool to streamline project management and resource utilization using React and Node.js.</li>
+                <li>Worked on server-side logic and database interactions using Node.js and Python to ensure efficient data handling and processing.</li>
+                <li>Participated in agile ceremonies and contributed to sprint planning, stand-ups, and retrospectives, promoting team collaboration and productivity.</li>
+                </ul>
+            </div>
+        
+            <!-- TCS -->
+            <div class="job-entry">
+                <h3 style="font-size: 1.5rem; color: #333;">Software Engineer</h3>
+                <p style="font-size: 1rem; color: #777;">TCS | Dallas, TX | May 2015 – Apr 2016</p>
+                <p style="font-style: italic; color: #555;">Tech used: JavaScript, TypeScript, React, Next.js, Node.js, Vue, MySQL, PostgreSQL, REST API, Jest, Cypress, Docker, AWS, Jenkins, CI/CD, MongoDB, Redux</p>
+                <ul style="padding-left: 20px; line-height: 1.6; color: #555;">
+                <li>Built e-commerce sites for 5 small businesses using React, Redux, and Node.js/Express, driving a 30% increase in annual sales through optimized product search and personalized recommendations.</li>
+                <li>Designed and implemented REST APIs with Node.js and PostgreSQL for 7 web application projects, allowing rapid prototyping through a reusable and scalable backend architecture.</li>
+                <li>Consulted with early-stage startups to evaluate tech stacks, migrating 2 companies to cloud-based solutions which decreased annual hosting costs and improved roadmap alignment to market needs.</li>
+                <li>Enhanced the performance of existing React/Node apps for 3 clients through profiling, code reviews, and optimizations like bundling, reducing average load times by 30% and boosting user satisfaction.</li>
+                </ul>
+            </div>
         </div>
-      </section>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>California Institute of Technology</p>
+                <p>May 2014</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Testmonial Section -->
     <!-- <section id="testmonial" class="section">
